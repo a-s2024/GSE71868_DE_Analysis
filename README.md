@@ -1,16 +1,17 @@
 # Differential Gene Expression Analysis: GSE71868
 
-This project performs a differential expression analysis on the GSE71868 dataset, which compares gene expression between young and middle-aged human brain samples.
+This project performs a differential expression analysis on the GSE71868 dataset, which compares gene expression between pulmonary CD11c+ cells from young and middle-aged mice.
 
 ## Objective
 
-Identify genes that are significantly differentially expressed with aging using the limma package in R.
+Identify genes that are significantly differentially expressed with aging in pulmonary CD11c+ cells using the limma package in R.
 
 ## Dataset
 
 - Source: [GEO - GSE71868](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE71868)
-- Platform: Human microarray expression data
-- Samples: 4 young, 4 middle-aged brain tissues
+- Organism: Mus musculus (mouse)
+- Platform: GPL6885 — Illumina MouseRef-8 v2.0 expression beadchip
+- Samples: 4 young mice, 4 middle-aged mice
 
 ## Tools Used
 
