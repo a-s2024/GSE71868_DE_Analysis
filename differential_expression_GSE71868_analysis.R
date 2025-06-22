@@ -2,12 +2,13 @@
 # Title: Differential Expression Analysis of GSE71868 Microarray Data
 # Author: a-s2024
 # Description:
-#   This script performs a differential gene expression analysis 
-#   on the GEO dataset GSE71868 using the limma package. 
-#   It compares gene expression between middle-aged and young human 
-#   brain samples to identify significantly differentially expressed genes.
+#   This script performs differential gene expression analysis 
+#   on the GEO dataset GSE71868 using the limma package.
+#   It compares gene expression in pulmonary CD11c+ cells between 
+#   middle-aged and young mice to identify genes involved in age-related 
+#   inflammation, immune response, and arachidonic acid metabolism.
+#   Data were generated using the Illumina MouseRef-8 v2.0 expression beadchip.
 # =============================================================
-
 
 # ------------------ Load Required Libraries ------------------
 library(Biobase)     # For working with ExpressionSet objects
@@ -23,7 +24,8 @@ dir.create(resfolder, showWarnings = FALSE)
 
 
 # ------------------ Download and Load GEO Dataset ------------------
-# Download GEO dataset GSE71868 (human brain aging study)
+# Download GEO dataset GSE71868 (mouse pulmonary CD11c+ cells: aging study)
+
 gset <- getGEO("GSE71868", destdir = resfolder, GSEMatrix = TRUE)
 
 # Select appropriate dataset if multiple found
