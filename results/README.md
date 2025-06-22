@@ -25,8 +25,8 @@ Identify genes that are significantly differentially expressed with aging using 
 - Volcano plot and dendrogram
 
 ## Structure
-- gene_expression_analysis.R # Main R script performing the analysis
-- differential_expression_results.csv # Output CSV with significant genes and stats
-- volcano_plot.png # Volcano plot visualization of DE genes
-- dendrogram.png # Dendrogram of hierarchical clustering
-- README.md # This file
+- `gene_expression_analysis.R`  *Main R script performing the analysis*
+- `differential_expression_results.csv` *Output CSV with significant genes and stats*
+- `volcano_plot.png` *Volcano plot visualization of DE genes*
+- `dendrogram.png` *Dendrogram of hierarchical clustering*
+- `README.md` *This file*
